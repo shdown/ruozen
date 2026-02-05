@@ -1,0 +1,47 @@
+body {
+    font-size: larger;
+}
+
+.cls_loading {
+    color: gray;
+}
+
+.cls_left {
+    font-weight: bold;
+}
+
+.cls_light {
+    color: grey;
+}
+
+.cls_ok {
+    color: green;
+}
+
+.cls_error {
+    color: red;
+}
+
+.sw_ready {
+    color: black;
+    border-radius: 10px;
+    background-color: lightgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sw_pending {
+    color: black;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sw_speak {
+    color: red;
+    border-radius: 10px;
+    background-color: #ffed8a;
+    padding-left: 10px;
+    padding-right: 10px;
+}

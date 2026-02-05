@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <link rel="stylesheet" href="/static/style.css">
+        <title>Голосовой ассистент</title>
+    </head>
+
+    <body>
+        <div id="loading">
+            <span class="cls_loading">
+                Загрузка…
+            </span>
+        </div>
+
+        <table>
+            <tr>
+                <td class="cls_left">Состояние:</td>
+                <td><span id="switch"></span></td>
+            </tr>
+
+            <tr>
+                <td class="cls_left">Услышан текст:</td>
+                <td><span id="decoded_text"></span></td>
+            </tr>
+
+            <tr>
+                <td class="cls_left">Результат:</td>
+                <td><span id="result"></span></td>
+            </tr>
+        </table>
+
+        <script src="/static/script.js"></script>
+        <noscript>
+            Пожалуйста, включите JavaScript.
+        </noscript>
+    </body>
+</html>
